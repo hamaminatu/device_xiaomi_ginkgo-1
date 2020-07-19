@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ginkgo.mk
+    $(LOCAL_DIR)/zenx_ginkgo.mk
+
+COMMON_LUNCH_CHOICES := \
+    zenx_ginkgo-eng \
+    zenx_ginkgo-userdebug \
+    zenx_ginkgo-user
